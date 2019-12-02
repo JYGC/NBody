@@ -7,10 +7,10 @@ DEPENDENCIES:
 -gmake
 
 SUPPORTED OPERATING SYSTEMS:
--OpenBSD
--FreeBSD
--Fedora
--(Any UNIX based operating system should work)
+- OpenBSD
+- FreeBSD
+- Fedora
+- (Any UNIX based operating system should work)
 
 COMPILING:
 	$ cd NBody
