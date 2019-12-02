@@ -2,9 +2,9 @@ DESCRIPTION:
 This is a simple gravity simulator using OpenGL (FreeGLUT)
 
 DEPENDENCIES:
--FreeGLUT
--clang (gcc does not work)
--gmake
+- FreeGLUT
+- clang (gcc does not work)
+- gmake
 
 SUPPORTED OPERATING SYSTEMS:
 - OpenBSD
