@@ -13,17 +13,17 @@ SUPPORTED OPERATING SYSTEMS:
 - (Any UNIX based operating system should work)
 
 COMPILING:
-	$ cd NBody
-	$ gmake
+$ cd NBody
+$ gmake
 
 RUNNING:
-	$ cat (input file) | ./nbody
+$ cat (input file) | ./nbody
 
 CREATING AN INPUT FILE:
-name mass    px py pz    vx vy vz    r g b
-name mass    px py pz    vx vy vz    r g b
-name mass    px py pz    vx vy vz    r g b
+name mass px py pz vx vy vz r g b
+name mass px py pz vx vy vz r g b
+name mass px py pz vx vy vz r g b
 ...
 ...
 ...
-name mass    px py pz    vx vy vz    r g b
+name mass px py pz vx vy vz r g b
