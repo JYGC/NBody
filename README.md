@@ -25,9 +25,15 @@ $ cat (input file) | ./nbody
 CREATING AN INPUT FILE:
 
 name mass px py pz vx vy vz r g b
+
 name mass px py pz vx vy vz r g b
+
 name mass px py pz vx vy vz r g b
+
 ...
+
 ...
+
 ...
+
 name mass px py pz vx vy vz r g b
