@@ -8,9 +8,10 @@
 
 MKFILE_PATH := $(abspath $(lastword $(MAKEFILE_LIST)))
 ROOT_DIR := $(dir $(lastword $(MKFILE_PATH)))
+MKDIR = mkdir -p
 CC = clang
 CFLAGS = -I/usr/X11R6/include -I/usr/local/include
-HEADER = -lm -lGL -lGLU -lGLEW -lglut
+HEADER = -lm -lGL -lGLU -lglut
 LIBS = -L/usr/lib -L/usr/X11R6/lib -L/usr/local/lib
 
 ODIR = $(ROOT_DIR)obj
@@ -19,6 +20,7 @@ DEPS = main.h
 
 _OBJ = auxillary.o draw.o main.o mass.o mechanics.o
 OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
+
 
 $(ODIR)/%.o: %.c $(DEPS)
 	$(CC) -g -c -o $@ $< $(CFLAGS)
